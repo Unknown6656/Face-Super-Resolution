@@ -1,2 +1,2 @@
 # Face-Super-Resolution
-KIT/Frauehnhofer IOSB project "Face Super-Resolution Software"
+KIT/Fraunhofer IOSB project "Face Super-Resolution Software"
