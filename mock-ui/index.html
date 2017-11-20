@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+        <link rel="stylesheet" href="./style.css">
+        <title>Super Face Resolution</title>
+	</head>
+	<body>
+        <div id="menu_panel">
+            <div class="menu_item">
+                <u>F</u>ile
+                <div class="sub_menu">
+                    <div class="sub_menu_item"><u>L</u>oad single file</div>
+                    <div class="sub_menu_item">Load <u>m</u>ultiple files...</div>
+                    <div class="sub_menu_item"><u>D</u>elete file</div>
+                    <div class="sub_menu_item">D<u>e</u>lete files</div>
+                    <div class="sub_menu_item">File <u>p</u>roperties</div>
+                    <div class="sub_menu_item">Application <u>s</u>ettings</div>
+                    <div class="sub_menu_item"><u>C</u>lose</div>
+                </div>
+            </div>
+            <div class="menu_item">
+                <u>E</u>dit
+                <div class="sub_menu">
+                    <div class="sub_menu_item"><u>V</u>iew similar images ...</div>
+                    <div class="sub_menu_item"><u>M</u>arker move tool</div>
+                    <div class="sub_menu_item"><u>S</u>ort images</div>
+                    <div class="sub_menu_item"><u>C</u>rop image</div>
+                    <div class="sub_menu_item"><u>B</u>rightness/Contrast</div>
+                </div>
+            </div>
+            <div class="menu_item">
+                <u>A</u>ction
+                <div class="sub_menu">
+                    <div class="sub_menu_item"><u>G</u>enerate 3D model</div>
+                    <div class="sub_menu_item">Ge<u>n</u>erate 2D portrait</div>
+                    <div class="sub_menu_item"><u>E</u>xport 3D model</div>
+                    <div class="sub_menu_item">E<u>x</u>port image</div>
+                    <div class="sub_menu_item"><u>S</u>end to video wall</div>
+                </div>
+            </div>
+            <div class="menu_item">
+                <u>H</u>elp
+                <div class="sub_menu">
+                    <div class="sub_menu_item"><u>A</u>bout</div>
+                    <div class="sub_menu_item"><u>V</u>iew GitHub page</div>
+                    <div class="sub_menu_item">Ask <u>P</u>SE students for help</div>
+                    <div class="sub_menu_item"><u>I</u>nvite suspected criminal on facebook</div>
+                    <div class="sub_menu_item">Call <u>S</u>.W.A.T. or GSG-9 team ...</div>
+                </div>
+            </div>
+        </div>
+        <div id="inner">
+            <div id="side_panel">
+                <div class="title">GALLERY</div>
+                <div id="toggle">⟩</div>
+                <div id="gallery">
+                    <!-- THIS WILL BE AUTO-FILLED -->
+                </div>
+            </div>
+            <div id="main-view">
+                <div class="content">
+                    <table border="0">
+                        <colgroup>
+                            <col width="50%" align="center"/>
+                            <col width="50%" align="center"/>
+                        </colgroup>
+                        <tr>
+                            <td>Input image:</td>
+                            <td>Enhanced image:</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div id="p1" class="preview">
+                                    <canvas></canvas>
+                                </div>
+                            </td>
+                            <td>
+                                <div id="p2" class="preview">
+                                    <canvas></canvas>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="indented">
+                        <br/>
+                        <br/>
+                        <progress max="100" value="0"></progress>
+                        <br/>
+                        <br/>
+                        <table class="t2">
+                            <tr>
+                                <td>
+                                    <button>Do some CSI stuff ...</button>
+                                </td>
+                                <td>
+                                    <button>Hack FBI</button>
+                                </td>
+                                <td>
+                                    <button>Render 3D Model</button>
+                                </td>
+                                <td>
+                                    <button>Play 5D-4k chess ...</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button>Important button</button>
+                                </td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
+                        <br/>
+                        <table>
+                            <tr>
+                                <td>
+                                    <div class="preview">
+                                        Some fancy 3D model should appear here
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            Hacking in progress ...... <span id="progress">0</span>% hacked !!
+        </div>
+	</body>
+    <script type="text/javascript" language="javascript" src="./jquery.js"></script>
+    <script type="text/javascript" language="javascript" src="./filter.js"></script>
+    <script type="text/javascript" language="javascript" src="./script.js"></script>
+</html>
